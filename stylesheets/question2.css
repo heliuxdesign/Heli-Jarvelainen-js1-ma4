@@ -1,0 +1,40 @@
+body {
+	background-color: lightblue;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+.card {
+	margin: 3rem;
+	padding: 0 2rem 2rem;
+	max-width: 300px;
+	background: cornsilk;
+	border: 2px solid gray;
+	border-radius: 1rem;
+}
+
+.card img {
+	width: 100%;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.error {
+	font-size: 20px;
+	color: red;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+a {
+	color: green;
+	font-size: 1.2em;
+}
